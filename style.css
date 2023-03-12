@@ -15,6 +15,7 @@
 }
 
 body {
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -92,7 +93,7 @@ ul .social-links {
 
 
 
-/* Content Section */
+/* Index Content Section */
 
 .inner-content {
     min-height: 73vh;
@@ -132,7 +133,150 @@ ul .social-links {
     padding-top: 120px;
 }
 
-/* End Of Content Section */
+/* End Of Index Content Section */
+
+
+
+
+
+
+
+/* About Content Section */
+
+.about-inner-content {
+    min-height: 73vh;
+    background-color: #F9F9F9;
+}
+
+.about-first-text-section {
+    float: left;
+    width: 40%;
+}
+
+.about-inner-first-text-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+
+.about-developer {
+    padding: 30px 0px;
+}
+
+.about-second-image-section {
+    float: left;
+    width: 40%;
+}
+
+.about-the-one {
+    object-fit: cover;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 120px;
+}
+
+/* End Of About Content Section */
+
+
+
+
+
+
+
+/* Projects Content Section */
+
+.projects-inner-content {
+    min-height: 73vh;
+    background-color: #F9F9F9;
+}
+
+.projects-first-text-section {
+    float: left;
+    width: 40%;
+}
+
+.projects-inner-first-text-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+
+.projects-developer {
+    padding: 30px 0px;
+}
+
+.projects-second-image-section {
+    float: left;
+    width: 40%;
+}
+
+.projects-the-one {
+    object-fit: cover;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 120px;
+}
+
+/* End Of Projects Content Section */
+
+
+
+
+
+
+/* Contact Content Section */
+
+.contact-inner-content {
+    min-height: 73vh;
+    background-color: #F9F9F9;
+}
+
+.contact-first-text-section {
+    float: left;
+    width: 40%;
+}
+
+.contact-inner-first-text-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+
+.contact-developer {
+    padding: 30px 0px;
+}
+
+.contact-second-image-section {
+    float: left;
+    width: 40%;
+}
+
+.contact-the-one {
+    object-fit: cover;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 120px;
+}
+
+/* End Of Contact Content Section */
 
 
 
