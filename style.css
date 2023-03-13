@@ -296,55 +296,80 @@ ul .social-links {
     text-align: center;
 }
 
+.inner-projects-main {
+    padding-top: 40px;
+}
+
+
+
 .emails {
     text-align: center;
 }
 
 .projects-first-one {
     display: inline-block;
+    padding-top: 40px;
 }
 
-.promotional-name {
+.promotional-link {
     text-decoration: none;
+}
+
+.promotional-name,
+.newsletter-name,
+.transactional-name,
+.sports-name,
+.dream-name {
+    padding-top: 5px;
 }
 
 .projects-second-one {
     display: inline-block;
     margin: 0px 40px;
+    padding-top: 40px;
 }
 
-.newsletter-name {
+.newsletter-link {
     text-decoration: none;
 }
 
 .projects-third-one {
     display: inline-block;
     margin: 0px 20px 0px 0px;
+    padding-top: 40px;
 }
 
 .projects-fourth-one {
     display: inline-block;
     margin: 0px 0px 0px 20px;
+    padding-top: 40px;
 }
 
 .projects-fifth-one {
     display: inline-block;
     margin: 0px 40px;
+    padding-top: 40px;
 }
 
-.transactional-name {
+.transactional-link {
     text-decoration: none;
 }
 
 .projects-sixth-one {
     display: inline-block;
+    padding-top: 40px;
 }
 
-.sports-landing {
+.sports-link {
     text-decoration: none;
 }
 
-.dream-landing {
+.projects-seventh-one {
+    display: inline-block;
+    padding: 40px 0px 60px 0px;
+}
+
+.dream-link {
     text-decoration: none;
 }
 
@@ -470,7 +495,6 @@ button {
     padding-top: 20px;
 }
 
-
 /* End Of Contact Content Section */
 
 
@@ -485,6 +509,12 @@ footer {
     min-height: 10vh;
     height: 10vh;
     line-height: 10vh;
+}
+
+.logo {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /* End Of Fotter Section */
