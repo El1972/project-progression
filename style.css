@@ -391,13 +391,14 @@ ul .social-links {
 /* Contact Content Section */
 
 .inner-contact-content {
-    min-height: 73vh;
+    min-height: 78vh;
     background-color: #F9F9F9;
 }
 
 .contact-main {
     max-width: 950px;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 .contact-form {
@@ -405,14 +406,69 @@ ul .social-links {
     float: left;
 }
 
+.inner-contact-form {
+    padding-top: 60px;
+    padding-left: 110px;
+}
+
+input[type="first_name"] {
+    padding: 5px;
+    display: block;
+    width: 256.5px;
+}
+
+input[type="last_name"] {
+    padding: 5px;
+    display: block;
+    width: 256.5px;
+}
+
+label {
+    color: #555555;
+}
+
+input[type="email"] {
+    padding: 5px;
+    display: block;
+    width: 256.5px;
+}
+
+textarea {
+    margin-top: 9px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.submit {
+    padding: 5px;
+    display: block;
+    width: 250px;
+    border-radius: 30px;
+    border: 1px solid rgb(189, 189, 189);
+    cursor: pointer;
+    font-family: 'helveticaneueultralight';
+    font-size: 16px;
+    color: #555555;
+}
+
 .contact-info {
     width: 50%;
     float: left;
 }
 
+.inner-contact-info {
+    padding-top: 60px;
+    padding-left: 110px;
+
+}
+
 .contact-info-text {}
 
-
+.base {
+    padding-top: 20px;
+}
 
 
 /* End Of Contact Content Section */
@@ -426,9 +482,9 @@ ul .social-links {
 /* Footer Section */
 
 footer {
-    min-height: 15vh;
-    height: 15vh;
-    line-height: 15vh;
+    min-height: 10vh;
+    height: 10vh;
+    line-height: 10vh;
 }
 
 /* End Of Fotter Section */
