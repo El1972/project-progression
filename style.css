@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'ralewayregular';
-    src: url('../public/fonts/raleway-regular-webfont.woff2') format('woff2'),
-        url('../public/fonts/raleway-regular-webfont.woff') format('woff');
+    src: url('./fonts/raleway-regular-webfont.woff2') format('woff2'),
+        url('./fonts/raleway-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'poppinsmedium';
-    src: url('../public/fonts/poppins-medium-webfont.woff2') format('woff2'),
-        url('../public/fonts/poppins-medium-webfont.woff') format('woff');
+    src: url('./fonts/poppins-medium-webfont.woff2') format('woff2'),
+        url('./fonts/poppins-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'libre_franklinmedium';
-    src: url('../public/fonts/librefranklin-medium-webfont.woff2') format('woff2'),
-        url('../public/fonts/librefranklin-medium-webfont.woff') format('woff');
+    src: url('./fonts/librefranklin-medium-webfont.woff2') format('woff2'),
+        url('./fonts/librefranklin-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'md_primer_testblack';
-    src: url('../public/fonts/mdprimertest-black-webfont.woff2') format('woff2'),
-        url('../public/fonts/mdprimertest-black-webfont.woff') format('woff');
+    src: url('./fonts/mdprimertest-black-webfont.woff2') format('woff2'),
+        url('./fonts/mdprimertest-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,48 +33,48 @@
 
 @font-face {
     font-family: 'md_primer_testregular';
-    src: url('../public/fonts/mdprimertest-regular-webfont.woff2') format('woff2'),
-        url('../public/fonts/mdprimertest-regular-webfont.woff') format('woff');
+    src: url('./fonts/mdprimertest-regular-webfont.woff2') format('woff2'),
+        url('./fonts/mdprimertest-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'md_primer_testsemibold';
-    src: url('../public/fonts/mdprimertest-semibold-webfont.woff2') format('woff2'),
-        url('../public/fonts/mdprimertest-semibold-webfont.woff') format('woff');
+    src: url('./fonts/mdprimertest-semibold-webfont.woff2') format('woff2'),
+        url('./fonts/mdprimertest-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneueheavy';
-    src: url('../public/fonts/helveticaneuehv-webfont.woff2') format('woff2'),
-        url('../public/fonts/helveticaneuehv-webfont.woff') format('woff');
+    src: url('./fonts/helveticaneuehv-webfont.woff2') format('woff2'),
+        url('./fonts/helveticaneuehv-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneueultralight';
-    src: url('../public/fonts/helveticaneueultralightv130-webfont.woff2') format('woff2'),
-        url('../public/fonts/helveticaneueultralightv130-webfont.woff') format('woff');
+    src: url('./fonts/helveticaneueultralightv130-webfont.woff2') format('woff2'),
+        url('./fonts/helveticaneueultralightv130-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneuelight';
-    src: url('../public/fonts/light-webfont.woff2') format('woff2'),
-        url('../public/fonts/light-webfont.woff') format('woff');
+    src: url('./fonts/light-webfont.woff2') format('woff2'),
+        url('./fonts/light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneueheavy';
-    src: url('../public/fonts/helveticaneuehv-webfont.woff2') format('woff2'),
-        url('../public/fonts/helveticaneuehv-webfont.woff') format('woff');
+    src: url('./fonts/helveticaneuehv-webfont.woff2') format('woff2'),
+        url('./fonts/helveticaneuehv-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -104,9 +104,10 @@ h5,
 h6,
 p,
 span,
-a {
+a,
+input {
     color: #555555;
-    font-family: 'helveticaneueultralight';
+    font-family: 'helveticaneuelight';
 }
 
 
@@ -194,9 +195,14 @@ ul .social-links {
     background-color: #F1F6FA;
 }
 
+.introduction-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .first-text-section {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 .inner-first-text-section {
@@ -206,7 +212,7 @@ ul .social-links {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0px 60px;
+    padding-left: 40px;
 }
 
 .developer {
@@ -215,16 +221,38 @@ ul .social-links {
 
 .second-image-section {
     float: left;
-    width: 40%;
+    width: 50%;
+}
+
+.second-image-section {
+    margin: 0 auto;
+    max-width: 390px;
+    /* border: 1px solid red; */
+}
+
+.inner-second-image-section {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    margin: auto;
+    top: 40px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
 }
 
 .the-one {
-    object-fit: cover;
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
+    position: absolute;
+    margin: auto;
     display: block;
-    padding-top: 120px;
+    width: 100%;
+    height: 97%;
+    top: 300px;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    object-fit: contain;
+    border-radius: 60%;
 }
 
 /* End Of Index Content Section */
@@ -291,7 +319,7 @@ ul .social-links {
 }
 
 .projects-main {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     text-align: center;
 }
@@ -307,8 +335,18 @@ ul .social-links {
 }
 
 .projects-first-one {
-    display: inline-block;
+    width: 25%;
+    float: left;
+    height: 200px;
+}
+
+.inner-projects-first-one {
     padding-top: 40px;
+    height: 200px;
+}
+
+.el {
+    height: 300px;
 }
 
 .promotional-link {
@@ -319,13 +357,18 @@ ul .social-links {
 .newsletter-name,
 .transactional-name,
 .sports-name,
-.dream-name {
+.dream-name,
+label {
     padding-top: 5px;
+    font-family: 'helveticaneuelight';
 }
 
 .projects-second-one {
-    display: inline-block;
-    margin: 0px 40px;
+    width: 25%;
+    float: left;
+}
+
+.inner-projects-second-one {
     padding-top: 40px;
 }
 
@@ -334,20 +377,29 @@ ul .social-links {
 }
 
 .projects-third-one {
-    display: inline-block;
-    margin: 0px 20px 0px 0px;
+    width: 25%;
+    float: left;
+}
+
+.inner-projects-third-one {
     padding-top: 40px;
 }
 
 .projects-fourth-one {
-    display: inline-block;
-    margin: 0px 0px 0px 20px;
+    width: 25%;
+    float: left;
+}
+
+.inner-projects-fourth-one {
     padding-top: 40px;
 }
 
 .projects-fifth-one {
-    display: inline-block;
-    margin: 0px 40px;
+    width: 33.3333%;
+    float: left;
+}
+
+.inner-projects-fifth-one {
     padding-top: 40px;
 }
 
@@ -356,8 +408,12 @@ ul .social-links {
 }
 
 .projects-sixth-one {
-    display: inline-block;
-    padding-top: 40px;
+    width: 33.3333%;
+    float: left;
+}
+
+.inner-projects-sixth-one {
+    padding: 40px 0px 90px 0px;
 }
 
 .sports-link {
@@ -365,8 +421,12 @@ ul .social-links {
 }
 
 .projects-seventh-one {
-    display: inline-block;
-    padding: 40px 0px 60px 0px;
+    width: 33.3333%;
+    float: left;
+}
+
+.projects-seventh-one {
+    padding-top: 40px;
 }
 
 .dream-link {
@@ -437,25 +497,46 @@ ul .social-links {
 }
 
 input[type="first_name"] {
-    padding: 5px;
+    padding: 8px 0px;
     display: block;
     width: 256.5px;
+    background-color: #F9F9F9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
 }
 
 input[type="last_name"] {
-    padding: 5px;
+    padding: 5px 0px;
     display: block;
     width: 256.5px;
+    background-color: #F9F9F9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
 }
 
-label {
+::placeholder {
+    font-size: 16px;
+    font-family: 'helveticaneuelight';
     color: #555555;
+
 }
 
 input[type="email"] {
-    padding: 5px;
+    padding: 5px 0px;
     display: block;
     width: 256.5px;
+    background-color: #F9F9F9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-width: 1px;
+    outline: transparent;
 }
 
 textarea {
@@ -464,18 +545,19 @@ textarea {
 
 button {
     margin-top: 20px;
+    background-color: black;
 }
 
 .submit {
     padding: 5px;
     display: block;
-    width: 250px;
+    width: 256.5px;
     border-radius: 30px;
-    border: 1px solid rgb(189, 189, 189);
+    border: 1px solid rgb(135, 135, 135);
     cursor: pointer;
     font-family: 'helveticaneueultralight';
     font-size: 16px;
-    color: #555555;
+    color: #ffffff;
 }
 
 .contact-info {
