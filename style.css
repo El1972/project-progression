@@ -468,6 +468,84 @@ label {
     padding-top: 120px;
 }
 
+/* Animation Part */
+/* 
+body {
+    background-color: #000;
+} */
+
+.fig {
+    width: 100%;
+    color: white;
+    font-family: 'Raleway';
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .fig img {
+    width: 100%;
+} */
+
+.names {
+    font-family: 'helveticaneueheavy';
+    font-size: 17px;
+}
+
+.fig::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+.fig .caption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fig .caption h3 {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+.fig .caption h5 {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.fig:hover::before {
+    visibility: visible;
+    animation-delay: .25s;
+    transition: all 5s;
+}
+
+.fig:hover .caption h3 {
+    transform: translateY(0px);
+    transition: all .50s;
+    opacity: 5;
+}
+
+.fig:hover .caption h5 {
+    transform: translateY(0px);
+    transition: all .50s;
+    opacity: 5;
+}
+
+/* End Of Animation Part */
+
+
 /* End Of Projects Content Section */
 
 
