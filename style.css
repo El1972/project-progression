@@ -1254,6 +1254,101 @@ button {
     /* Tablet - End Of Projects Content Section */
 
 
+
+
+    /* Mobile - Contact Content Section */
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .inner-contact-form {
+        padding-top: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    input[type="first_name"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    input[type="last_name"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    input[type="email"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    textarea {
+        margin: 9px 0px 20px 0px;
+        outline: transparent;
+        width: 256.5px;
+    }
+
+    button.submit {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        border-radius: 30px;
+        border: 1px solid rgb(135, 135, 135);
+        cursor: pointer;
+        font-family: 'helveticaneueultralight';
+        font-size: 16px;
+        color: #ffffff;
+        margin: 0 auto;
+        background-color: black;
+
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .inner-contact-info {
+        padding-top: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* Mobile - End Of Contact Content Section */
+
+
+
 }
 
 @media (min-width: 771px) and (max-width: 860px) {
@@ -1506,6 +1601,101 @@ button {
     }
 
     /* Tablet - End Of Projects Content Section */
+
+
+
+
+    /* Mobile - Contact Content Section */
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .inner-contact-form {
+        padding-top: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    input[type="first_name"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    input[type="last_name"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    input[type="email"] {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        background-color: #F9F9F9;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-width: 1px;
+        outline: transparent;
+        margin: 0 auto;
+    }
+
+    textarea {
+        margin: 9px 0px 20px 0px;
+        outline: transparent;
+        width: 256.5px;
+    }
+
+    button.submit {
+        padding: 5px 0px;
+        display: block;
+        width: 256.5px;
+        border-radius: 30px;
+        border: 1px solid rgb(135, 135, 135);
+        cursor: pointer;
+        font-family: 'helveticaneueultralight';
+        font-size: 16px;
+        color: #ffffff;
+        margin: 0 auto;
+        background-color: black;
+
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .inner-contact-info {
+        padding-top: 60px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    /* Mobile - End Of Contact Content Section */
+
 
 
 }
