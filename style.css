@@ -703,6 +703,7 @@ button {
 
 /* --------- Media Querries Section ---------- */
 
+
 @media (max-width: 500px) {
 
 
@@ -1158,6 +1159,33 @@ button {
 
     /* Tablet - End Of Index Content Section */
 
+
+
+
+    /* Mobile - About Content Section */
+
+    .about-me-container {
+        width: 100%;
+    }
+
+    .inner-about-me-container {
+        padding: 0px 30px;
+    }
+
+    .about-me-article {
+        width: 100%;
+
+    }
+
+    .inner-about-me-article {
+        height: 600px;
+        line-height: 600px;
+        padding: 0px 30px;
+    }
+
+    /* Mobile - End Of About Content Section */
+
+
 }
 
 @media (min-width: 771px) and (max-width: 860px) {
@@ -1305,6 +1333,40 @@ button {
 
     /* Tablet - End Of Index Content Section */
 
+
+
+
+    /* Mobile - About Content Section */
+
+    .about-me-container {
+        width: 50%;
+        float: left;
+    }
+
+    .inner-about-me-container {
+        padding: 240.35px 30px;
+    }
+
+    .about-image {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+    }
+
+    .about-me-article {
+        width: 50%;
+        float: left;
+    }
+
+    .inner-about-me-article {
+        height: 600px;
+        line-height: 600px;
+        padding: 190.35px 30px;
+    }
+
+    /* Mobile - End Of About Content Section */
+
+
 }
 
 @media (min-width: 861px) and (max-width: 1200px) {
@@ -1360,7 +1422,7 @@ button {
     }
 
     .nav-links a {
-        font-size: .9em;
+        font-size: .8em;
     }
 
     .header-second-section {
@@ -1377,7 +1439,7 @@ button {
         height: 12vh;
         line-height: 12vh;
         padding: 0px 6px;
-        font-size: .9em;
+        font-size: .8em;
         text-align: left;
     }
 
@@ -1450,6 +1512,39 @@ button {
     }
 
     /* Tablet - End Of Index Content Section */
+
+
+
+
+    /* Mobile - About Content Section */
+
+    .about-me-container {
+        width: 50%;
+        float: left;
+    }
+
+    .inner-about-me-container {
+        padding: 300px 30px;
+    }
+
+    .about-image {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+    }
+
+    .about-me-article {
+        width: 50%;
+        float: left;
+    }
+
+    .inner-about-me-article {
+        height: 600px;
+        line-height: 600px;
+        padding: 300px 30px;
+    }
+
+    /* Mobile - End Of About Content Section */
 
 }
 
