@@ -664,7 +664,6 @@ button {
 .inner-contact-info {
     padding: 60px 0px;
     padding-left: 110px;
-    text-align: center;
 }
 
 .contact-info-text {}
@@ -856,6 +855,7 @@ button {
 
 
     /* Mobile - Projects Content Section */
+
     .projects-first-one {
         width: 100%;
         height: 400px;
@@ -1006,6 +1006,7 @@ button {
     .inner-contact-info {
         padding-top: 60px;
         padding-left: 0px;
+        text-align: center;
     }
 
     /* Mobile - End Of Contact Content Section */
@@ -1133,14 +1134,14 @@ button {
 
     div.inner-second-image-section {
         position: relative;
-        width: 100%;
+        width: 70%;
         display: block;
         min-height: 0vh;
         margin: 0px;
         top: 0px;
         left: 0px;
         right: 0px;
-        bottom: 0;
+        bottom: 0px;
     }
 
     img.the-one {
@@ -1148,7 +1149,7 @@ button {
         display: block;
         width: 100%;
         height: auto;
-        top: 110px;
+        top: 140px;
         left: 0px;
         right: 0px;
         bottom: 0px;
@@ -1162,7 +1163,7 @@ button {
 
 
 
-    /* Mobile - About Content Section */
+    /* Tablet - About Content Section */
 
     .about-me-container {
         width: 100%;
@@ -1183,7 +1184,74 @@ button {
         padding: 0px 30px;
     }
 
-    /* Mobile - End Of About Content Section */
+    /* Tablet - End Of About Content Section */
+
+
+
+
+
+    /* Tablet - Projects Content Section */
+
+
+    .projects-first-one {
+        width: 100%;
+        height: 400px;
+    }
+
+    div.inner-projects-first-one {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .projects-second-one {
+        width: 100%;
+        height: 400px;
+    }
+
+    .inner-projects-second-one {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .projects-third-one {
+        width: 100%;
+    }
+
+    .inner-projects-third-one {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .projects-fourth-one {
+        width: 100%;
+    }
+
+    .inner-projects-fourth-one {
+        padding: 50px 0px 10px 0px;
+    }
+
+    .projects-fifth-one {
+        width: 100%;
+    }
+
+    .inner-projects-fifth-one {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .projects-sixth-one {
+        width: 100%;
+    }
+
+    .inner-projects-sixth-one {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .projects-seventh-one {
+        width: 100%;
+    }
+
+    .projects-seventh-one {
+        padding: 30px 0px 60px 0px;
+    }
+
+    /* Tablet - End Of Projects Content Section */
 
 
 }
@@ -1336,7 +1404,7 @@ button {
 
 
 
-    /* Mobile - About Content Section */
+    /* Tablet - About Content Section */
 
     .about-me-container {
         width: 50%;
@@ -1350,7 +1418,7 @@ button {
     .about-image {
         object-fit: cover;
         width: 100%;
-        height: 600px;
+        height: 78vh;
     }
 
     .about-me-article {
@@ -1371,7 +1439,73 @@ button {
         font-size: 15px;
     }
 
-    /* Mobile - End Of About Content Section */
+    /* Tablet - End Of About Content Section */
+
+
+
+
+    /* Tablet - Projects Content Section */
+
+
+    .projects-first-one {
+        width: 100%;
+        height: 400px;
+    }
+
+    div.inner-projects-first-one {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .projects-second-one {
+        width: 100%;
+        height: 400px;
+    }
+
+    .inner-projects-second-one {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .projects-third-one {
+        width: 100%;
+    }
+
+    .inner-projects-third-one {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .projects-fourth-one {
+        width: 100%;
+    }
+
+    .inner-projects-fourth-one {
+        padding: 50px 0px 10px 0px;
+    }
+
+    .projects-fifth-one {
+        width: 100%;
+    }
+
+    .inner-projects-fifth-one {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .projects-sixth-one {
+        width: 100%;
+    }
+
+    .inner-projects-sixth-one {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .projects-seventh-one {
+        width: 100%;
+    }
+
+    .projects-seventh-one {
+        padding: 30px 0px 60px 0px;
+    }
+
+    /* Tablet - End Of Projects Content Section */
 
 
 }
@@ -1537,7 +1671,7 @@ button {
     .about-image {
         object-fit: cover;
         width: 100%;
-        height: 600px;
+        height: 78vh;
     }
 
     .about-me-article {
@@ -1722,7 +1856,7 @@ button {
     .about-image {
         object-fit: cover;
         width: 100%;
-        height: 600px;
+        height: 78vh;
     }
 
     .about-me-article {
